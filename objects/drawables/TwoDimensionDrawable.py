@@ -14,6 +14,8 @@ class TwoDimensionDrawable:
 
     def set_colour(self, r:float, g:float, b:float):
         self.colour = Colour(r, g, b)   
+        return self
 
     def set_colour(self, colour:Colour):
         self.colour = colour
+        return self
